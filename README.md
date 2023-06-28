@@ -1,10 +1,6 @@
 # dl4ba
 Code implementation and Datasets for the Paper "An empirical assessment of deep learning models for bug assignment"
 
-<p align="center">
-    <img src="https://github.com/AI4BA/dl4ba/blob/main/roadmap.pdf" width="666" alt="method">
-</p>
-
 ## Requirements
 - nltk==3.8.1
 - numpy==1.23.5
