@@ -1,0 +1,10 @@
+{
+    "num_epochs": 2,
+    "batch_size": 32,
+    "num_filters": 256,
+    "filter_sizes": "3,4,5",
+    "l2_reg_lambda": 0.1,
+    "dropout_keep_prob": 0.5,
+    "decay_coefficient": 2.5,
+    "attention": false
+}
