@@ -1,6 +1,6 @@
 # dl4ba
 Our experiment is conducted according to the following technical roadmap.
-<img src="https://github.com/AI4BA/roadmap.pdf" alt="roadmap"/>
+<img src="[https://github.com/AI4BA/roadmap.pdf](https://github.com/AI4BA/dl4ba/blob/main/roadmap.pdf)" alt="roadmap"/>
 ## Getting Started
 ### Requirements
 - nltk==3.8.1
