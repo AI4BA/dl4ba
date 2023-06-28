@@ -16,13 +16,17 @@ Our experiment is conducted according to the following technical roadmap.
 - json==0.9.6
 
 ### Pre-Trained Models
-Word2Vec is GoogleNews-vectors-negative300.bin
-GloVe is glove.840B.300d.txt
-NextBug could be downloaded in https://github.com/xiaotingdu/DeepSIM
-BERT could be downloaded in https://github.com/google-research/BERT
-ELMo could be downloaded in https://s3-us-west-2.amazonaws.com/allennlp/models/elmo
+- Word2Vec is GoogleNews-vectors-negative300.bin.
+- GloVe is glove.840B.300d.txt.
+- NextBug could be downloaded in https://github.com/xiaotingdu/DeepSIM.
+- BERT could be downloaded in https://github.com/google-research/BERT.
+- ELMo could be downloaded in https://s3-us-west-2.amazonaws.com/allennlp/models/elmo.
 
 ### Directory Structure
-- res is a set of results about all research questions
-- data analysis contains code used to analyse results, such as code for Cliff's Delta, code for Wilcoxon signed-rank test, code for drawing plots, and so on.
-- 
+- data analysis: It contains code used to analyse results, such as code for Cliff's Delta, code for Wilcoxon signed-rank test, code for drawing plots, and so on.
+- datasets: It consist of three widely-used datasets in bug assignment.
+- res: It is a set of results about all research questions.
+- models.py: Code that implements TextCNN, LSTM, Bi-LSTM, LSTM with attention, Bi-LSTM with attention, and MLP.
+- parameters.json: Parameters for training models
+- train.py: Code for training models
+- utils.py: Code for text preprocessing, word vectors generating, and so on.
