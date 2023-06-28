@@ -1,10 +1,11 @@
 # dl4ba
-Our experiment is conducted according to the following technical roadmap.
+Code implementation and Datasets for the Paper "An empirical assessment of deep learning models for bug assignment"
 
-![image](https://github.com/AI4BA/dl4ba/blob/main/roadmap.pdf)
+<p align="center">
+    <img src="https://github.com/AI4BA/dl4ba/blob/main/roadmap.pdf" width="666" alt="method">
+</p>
 
-## Getting Started
-### Requirements
+## Requirements
 - nltk==3.8.1
 - numpy==1.23.5
 - pandas==1.5.3
@@ -17,6 +18,7 @@ Our experiment is conducted according to the following technical roadmap.
 - matplotlib==3.7.1
 - json==0.9.6
 
+## Getting Started
 ### Pre-Trained Models
 - Word2Vec is GoogleNews-vectors-negative300.bin.
 - GloVe is glove.840B.300d.txt.
@@ -32,3 +34,6 @@ Our experiment is conducted according to the following technical roadmap.
 - parameters.json: Parameters for training models
 - train.py: Code for training models
 - utils.py: Code for text preprocessing, word vectors generating, and so on.
+
+### Computing Infrastructure
+- All experiments were conducted on Ubuntu 20.04 equipped with an Intel(R) Xeon(R) Platinum 8338C CPU @ 2.60GHz, 80 GB RAM, and a RTX 3090-24 GB video card. 
